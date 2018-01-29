@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B4A57C1200D54C000651E59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4A57C0200D54C000651E59 /* AppDelegate.m */; };
+		1B4A57C4200D54C000651E59 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4A57C3200D54C000651E59 /* ViewController.m */; };
+		1B4A57C7200D54C000651E59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B4A57C5200D54C000651E59 /* Main.storyboard */; };
+		1B4A57C9200D54C000651E59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B4A57C8200D54C000651E59 /* Assets.xcassets */; };
+		1B4A57CC200D54C000651E59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B4A57CA200D54C000651E59 /* LaunchScreen.storyboard */; };
+		1B4A57CF200D54C000651E59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4A57CE200D54C000651E59 /* main.m */; };
+		1B4A57D9200D54C000651E59 /* CAiOSBackgroundToneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4A57D8200D54C000651E59 /* CAiOSBackgroundToneTests.m */; };
+		1B4A57E4200D54C000651E59 /* CAiOSBackgroundToneUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4A57E3200D54C000651E59 /* CAiOSBackgroundToneUITests.m */; };
+		1B4A57F3200D552A00651E59 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B4A57F2200D552A00651E59 /* AudioToolbox.framework */; };
+		1B4A57F5200DA0E900651E59 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B4A57F4200DA0E900651E59 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B4A57D5200D54C000651E59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B4A57B4200D54C000651E59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B4A57BB200D54C000651E59;
+			remoteInfo = CAiOSBackgroundTone;
+		};
+		1B4A57E0200D54C000651E59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B4A57B4200D54C000651E59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B4A57BB200D54C000651E59;
+			remoteInfo = CAiOSBackgroundTone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B4A57BC200D54C000651E59 /* CAiOSBackgroundTone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAiOSBackgroundTone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B4A57BF200D54C000651E59 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1B4A57C0200D54C000651E59 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1B4A57C2200D54C000651E59 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1B4A57C3200D54C000651E59 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1B4A57C6200D54C000651E59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B4A57C8200D54C000651E59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B4A57CB200D54C000651E59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1B4A57CD200D54C000651E59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B4A57CE200D54C000651E59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1B4A57D4200D54C000651E59 /* CAiOSBackgroundToneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAiOSBackgroundToneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B4A57D8200D54C000651E59 /* CAiOSBackgroundToneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAiOSBackgroundToneTests.m; sourceTree = "<group>"; };
+		1B4A57DA200D54C000651E59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B4A57DF200D54C000651E59 /* CAiOSBackgroundToneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAiOSBackgroundToneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B4A57E3200D54C000651E59 /* CAiOSBackgroundToneUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAiOSBackgroundToneUITests.m; sourceTree = "<group>"; };
+		1B4A57E5200D54C000651E59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B4A57F2200D552A00651E59 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		1B4A57F4200DA0E900651E59 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B4A57B9200D54C000651E59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B4A57F5200DA0E900651E59 /* AVFoundation.framework in Frameworks */,
+				1B4A57F3200D552A00651E59 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B4A57D1200D54C000651E59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B4A57DC200D54C000651E59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B4A57B3200D54C000651E59 = {
+			isa = PBXGroup;
+			children = (
+				1B4A57BE200D54C000651E59 /* CAiOSBackgroundTone */,
+				1B4A57D7200D54C000651E59 /* CAiOSBackgroundToneTests */,
+				1B4A57E2200D54C000651E59 /* CAiOSBackgroundToneUITests */,
+				1B4A57BD200D54C000651E59 /* Products */,
+				1B4A57F1200D552A00651E59 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1B4A57BD200D54C000651E59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B4A57BC200D54C000651E59 /* CAiOSBackgroundTone.app */,
+				1B4A57D4200D54C000651E59 /* CAiOSBackgroundToneTests.xctest */,
+				1B4A57DF200D54C000651E59 /* CAiOSBackgroundToneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B4A57BE200D54C000651E59 /* CAiOSBackgroundTone */ = {
+			isa = PBXGroup;
+			children = (
+				1B4A57BF200D54C000651E59 /* AppDelegate.h */,
+				1B4A57C0200D54C000651E59 /* AppDelegate.m */,
+				1B4A57C2200D54C000651E59 /* ViewController.h */,
+				1B4A57C3200D54C000651E59 /* ViewController.m */,
+				1B4A57C5200D54C000651E59 /* Main.storyboard */,
+				1B4A57C8200D54C000651E59 /* Assets.xcassets */,
+				1B4A57CA200D54C000651E59 /* LaunchScreen.storyboard */,
+				1B4A57CD200D54C000651E59 /* Info.plist */,
+				1B4A57CE200D54C000651E59 /* main.m */,
+			);
+			path = CAiOSBackgroundTone;
+			sourceTree = "<group>";
+		};
+		1B4A57D7200D54C000651E59 /* CAiOSBackgroundToneTests */ = {
+			isa = PBXGroup;
+			children = (
+				1B4A57D8200D54C000651E59 /* CAiOSBackgroundToneTests.m */,
+				1B4A57DA200D54C000651E59 /* Info.plist */,
+			);
+			path = CAiOSBackgroundToneTests;
+			sourceTree = "<group>";
+		};
+		1B4A57E2200D54C000651E59 /* CAiOSBackgroundToneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1B4A57E3200D54C000651E59 /* CAiOSBackgroundToneUITests.m */,
+				1B4A57E5200D54C000651E59 /* Info.plist */,
+			);
+			path = CAiOSBackgroundToneUITests;
+			sourceTree = "<group>";
+		};
+		1B4A57F1200D552A00651E59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B4A57F4200DA0E900651E59 /* AVFoundation.framework */,
+				1B4A57F2200D552A00651E59 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B4A57BB200D54C000651E59 /* CAiOSBackgroundTone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B4A57E8200D54C000651E59 /* Build configuration list for PBXNativeTarget "CAiOSBackgroundTone" */;
+			buildPhases = (
+				1B4A57B8200D54C000651E59 /* Sources */,
+				1B4A57B9200D54C000651E59 /* Frameworks */,
+				1B4A57BA200D54C000651E59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CAiOSBackgroundTone;
+			productName = CAiOSBackgroundTone;
+			productReference = 1B4A57BC200D54C000651E59 /* CAiOSBackgroundTone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B4A57D3200D54C000651E59 /* CAiOSBackgroundToneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B4A57EB200D54C000651E59 /* Build configuration list for PBXNativeTarget "CAiOSBackgroundToneTests" */;
+			buildPhases = (
+				1B4A57D0200D54C000651E59 /* Sources */,
+				1B4A57D1200D54C000651E59 /* Frameworks */,
+				1B4A57D2200D54C000651E59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B4A57D6200D54C000651E59 /* PBXTargetDependency */,
+			);
+			name = CAiOSBackgroundToneTests;
+			productName = CAiOSBackgroundToneTests;
+			productReference = 1B4A57D4200D54C000651E59 /* CAiOSBackgroundToneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1B4A57DE200D54C000651E59 /* CAiOSBackgroundToneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B4A57EE200D54C000651E59 /* Build configuration list for PBXNativeTarget "CAiOSBackgroundToneUITests" */;
+			buildPhases = (
+				1B4A57DB200D54C000651E59 /* Sources */,
+				1B4A57DC200D54C000651E59 /* Frameworks */,
+				1B4A57DD200D54C000651E59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B4A57E1200D54C000651E59 /* PBXTargetDependency */,
+			);
+			name = CAiOSBackgroundToneUITests;
+			productName = CAiOSBackgroundToneUITests;
+			productReference = 1B4A57DF200D54C000651E59 /* CAiOSBackgroundToneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B4A57B4200D54C000651E59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Jason Aylward";
+				TargetAttributes = {
+					1B4A57BB200D54C000651E59 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					1B4A57D3200D54C000651E59 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1B4A57BB200D54C000651E59;
+					};
+					1B4A57DE200D54C000651E59 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1B4A57BB200D54C000651E59;
+					};
+				};
+			};
+			buildConfigurationList = 1B4A57B7200D54C000651E59 /* Build configuration list for PBXProject "CAiOSBackgroundTone" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B4A57B3200D54C000651E59;
+			productRefGroup = 1B4A57BD200D54C000651E59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B4A57BB200D54C000651E59 /* CAiOSBackgroundTone */,
+				1B4A57D3200D54C000651E59 /* CAiOSBackgroundToneTests */,
+				1B4A57DE200D54C000651E59 /* CAiOSBackgroundToneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B4A57BA200D54C000651E59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B4A57CC200D54C000651E59 /* LaunchScreen.storyboard in Resources */,
+				1B4A57C9200D54C000651E59 /* Assets.xcassets in Resources */,
+				1B4A57C7200D54C000651E59 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B4A57D2200D54C000651E59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B4A57DD200D54C000651E59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B4A57B8200D54C000651E59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B4A57C4200D54C000651E59 /* ViewController.m in Sources */,
+				1B4A57CF200D54C000651E59 /* main.m in Sources */,
+				1B4A57C1200D54C000651E59 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B4A57D0200D54C000651E59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B4A57D9200D54C000651E59 /* CAiOSBackgroundToneTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B4A57DB200D54C000651E59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B4A57E4200D54C000651E59 /* CAiOSBackgroundToneUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B4A57D6200D54C000651E59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B4A57BB200D54C000651E59 /* CAiOSBackgroundTone */;
+			targetProxy = 1B4A57D5200D54C000651E59 /* PBXContainerItemProxy */;
+		};
+		1B4A57E1200D54C000651E59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B4A57BB200D54C000651E59 /* CAiOSBackgroundTone */;
+			targetProxy = 1B4A57E0200D54C000651E59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1B4A57C5200D54C000651E59 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B4A57C6200D54C000651E59 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1B4A57CA200D54C000651E59 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B4A57CB200D54C000651E59 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B4A57E6200D54C000651E59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1B4A57E7200D54C000651E59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B4A57E9200D54C000651E59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QJ2S27M73N;
+				INFOPLIST_FILE = CAiOSBackgroundTone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wrongquestion.CAiOSBackgroundTone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1B4A57EA200D54C000651E59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QJ2S27M73N;
+				INFOPLIST_FILE = CAiOSBackgroundTone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wrongquestion.CAiOSBackgroundTone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1B4A57EC200D54C000651E59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QJ2S27M73N;
+				INFOPLIST_FILE = CAiOSBackgroundToneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wrongquestion.CAiOSBackgroundToneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CAiOSBackgroundTone.app/CAiOSBackgroundTone";
+			};
+			name = Debug;
+		};
+		1B4A57ED200D54C000651E59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QJ2S27M73N;
+				INFOPLIST_FILE = CAiOSBackgroundToneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wrongquestion.CAiOSBackgroundToneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CAiOSBackgroundTone.app/CAiOSBackgroundTone";
+			};
+			name = Release;
+		};
+		1B4A57EF200D54C000651E59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QJ2S27M73N;
+				INFOPLIST_FILE = CAiOSBackgroundToneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wrongquestion.CAiOSBackgroundToneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CAiOSBackgroundTone;
+			};
+			name = Debug;
+		};
+		1B4A57F0200D54C000651E59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QJ2S27M73N;
+				INFOPLIST_FILE = CAiOSBackgroundToneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wrongquestion.CAiOSBackgroundToneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CAiOSBackgroundTone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B4A57B7200D54C000651E59 /* Build configuration list for PBXProject "CAiOSBackgroundTone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B4A57E6200D54C000651E59 /* Debug */,
+				1B4A57E7200D54C000651E59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B4A57E8200D54C000651E59 /* Build configuration list for PBXNativeTarget "CAiOSBackgroundTone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B4A57E9200D54C000651E59 /* Debug */,
+				1B4A57EA200D54C000651E59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B4A57EB200D54C000651E59 /* Build configuration list for PBXNativeTarget "CAiOSBackgroundToneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B4A57EC200D54C000651E59 /* Debug */,
+				1B4A57ED200D54C000651E59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B4A57EE200D54C000651E59 /* Build configuration list for PBXNativeTarget "CAiOSBackgroundToneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B4A57EF200D54C000651E59 /* Debug */,
+				1B4A57F0200D54C000651E59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B4A57B4200D54C000651E59 /* Project object */;
+}
